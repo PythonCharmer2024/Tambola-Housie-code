@@ -2,8 +2,8 @@
 
 import random
 
-upr_lt=90
-lwr_lt=1
+upr_lt=int(input("Enter upper limit of board:"))
+lwr_lt=int(input("Enter lower limit of board:"))
 lst=[]
 for i in range(lwr_lt,upr_lt+1,1):
     lst.append(i)
